@@ -1,0 +1,52 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+.hero-unit {
+    margin: 50px auto 0 auto;
+    width: 400px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 60px;
+}
+
+.hero-unit h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+nav a{
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    padding: .3em;
+}
+nav a:hover{
+    color: #777;
+}
+nav ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+nav li{
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 10px;
+}
+nav li ul{
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    box-shadow: 0 0 1px #999;
+    border-radius: 3px;
+}
