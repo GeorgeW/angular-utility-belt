@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('angularUiToolbeltApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MainCtrl', ['$scope', function ($scope) {
   	$scope.dropdown = {
   		title: 'Drop Down',
   		links: ['link home', 'link About', 'Contact', 'Blitz', 'Company', 'Like', 'SEO']
@@ -11,4 +11,4 @@ angular.module('angularUiToolbeltApp')
       'AngularJS',
       'Karma'
     ];
-  });
+  }]);

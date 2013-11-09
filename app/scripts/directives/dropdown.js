@@ -1,6 +1,22 @@
 'use strict';
+/*
 
-angular.module('angularUiToolbeltApp').directive('dropdown', function() {
+1. add module as dependency
+
+angular.module('yourModule', ['toolbelt.dropdown']);
+
+2. add $scope.dropdown object in controller (below is example)   
+
+example:
+
+$scope.dropdown = {
+	title: 'Drop Down',
+	links: ['link home', 'link About', 'Contact', 'Blitz', 'Company', 'Like', 'SEO']
+};
+
+
+*/
+angular.module('toolbelt.dropdown', []).directive('dropdown', function() {
 	return {
 		replace: true,
 		transclude: true,

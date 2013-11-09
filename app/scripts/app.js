@@ -3,7 +3,8 @@
 angular.module('angularUiToolbeltApp', [
   'ngCookies',
   'ngResource',
-  'ngSanitize'
+  'ngSanitize',
+  'toolbelt.dropdown'
 ])
   .config(function ($routeProvider) {
     $routeProvider
